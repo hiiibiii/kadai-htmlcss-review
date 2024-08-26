@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* 各要素に背景色をつけてください。
+要素と背景色の対応は下記「要素と背景色の対応」の表を参照してください。 */
+
+header{
+	background-color:#ffcccc;
+	width: 1000px;
+}
+#wrapper{
+	display: flex;
+}
+#main{
+	width: 700px;
+	background-color:#ccffcc;
+}
+
+#menu{
+	width: 300px;
+	background-color: #ccccff;
+}
+
+footer{
+	background-color:#ffccff;
+	width: 1000px;
+}
+
+/*#mainが700px、#menuは300pxで表示されるようにしてください。
+	つまり、header、footerの横幅は、1000pxとなります。 */
