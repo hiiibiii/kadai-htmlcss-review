@@ -2,22 +2,25 @@
 
 /* 各要素に背景色をつけてください。
 要素と背景色の対応は下記「要素と背景色の対応」の表を参照してください。 */
+/*#mainが700px、#menuは300pxで表示されるようにしてください。
+	つまり、header、footerの横幅は、1000pxとなります。 */
 
 header{
 	background-color:#ffcccc;
 	width: 1000px;
 }
+
 #wrapper{
 	display: flex;
+	width: 1000px;
 }
 #main{
-	width: 700px;
 	background-color:#ccffcc;
+	width: 700px;
 }
-
 #menu{
-	width: 300px;
 	background-color: #ccccff;
+	width: 300px;
 }
 
 footer{
@@ -25,5 +28,3 @@ footer{
 	width: 1000px;
 }
 
-/*#mainが700px、#menuは300pxで表示されるようにしてください。
-	つまり、header、footerの横幅は、1000pxとなります。 */
